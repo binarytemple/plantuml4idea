@@ -89,7 +89,7 @@
         <annotator language="PUML" implementationClass="org.plantuml.idea.lang.annotator.PlantUmlAnnotator"/>
         <colorSettingsPage implementation="org.plantuml.idea.lang.settings.PlantUmlColorsPage"/>
         <multiHostInjector implementation="org.plantuml.idea.lang.injection.PlantUmlMultiHostInjector"/>
-        <fileDocumentManagerListener implementation="ExampleFileChangeListener"/>
+        <fileDocumentManagerListener implementation="org.plantuml.idea.action.ExampleFileChangeListener"/>
         <javadocTagInfo implementation="org.plantuml.idea.lang.injection.StartUmlTagInfo"/>
         <javadocTagInfo implementation="org.plantuml.idea.lang.injection.EndUmlTagInfo"/>
     </extensions>
